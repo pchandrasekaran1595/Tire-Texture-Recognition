@@ -1,0 +1,1 @@
+start /MAX cmd /c "title Install Pytorch GPU && cls && cd venv/Scripts && activate && cd .. && cd .. && pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html"
